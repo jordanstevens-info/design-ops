@@ -1,0 +1,8 @@
+{
+  "name": "product-design",
+  "description": "Product design workflow plugin for scoping, prototyping, engineering, review, tickets, MR packages, presos, and updates",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jordan Stevens"
+  }
+}

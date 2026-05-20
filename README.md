@@ -1,26 +1,38 @@
 # js-plugins
 
-A Claude Code plugin marketplace with design and development workflow tools.
+A Claude Code and Codex plugin marketplace with product design workflow tools.
 
 ## Install
 
+### Claude Code
+
 ```shell
 claude plugin marketplace add https://github.com/jordanstevens-info/js-plugins
-claude plugin install design-engineer@js-plugins
+claude plugin install product-design@js-plugins
 ```
+
+### Codex
+
+Codex uses the repo-local marketplace at `.agents/plugins/marketplace.json`.
 
 ## Plugins
 
-### design-engineer
+### product-design
 
-Cross-repo design engineering workflow that bootstraps a `.design/` context directory on a dedicated `design/` branch. Handles the full lifecycle from project detection through implementation, delivery, and team communication.
+One product design workflow plugin for non-linear design work across prototypes, real codebases, review, backlog artifacts, MR packages, design stories, and team updates.
 
-**Skills:**
+**Commands:**
 
-- **design-engineer** — Figma-to-code implementation with visual QA, accessibility checks, design token compliance, responsive layout verification, and structured changelogs in `.design/changelog/`
-- **design-to-backlog** — Convert design artifacts (branches, Figma files, Confluence specs) into grooming-ready Jira tickets with outcome-focused acceptance criteria
-- **design-to-mr** — Cut a clean merge request branch from a design branch with scoped file selection, MR description drafting, and pre-filled MR links
-- **design-update** — Compose copy-pasteable Slack updates summarizing session work across git, Figma, Confluence, and other tools
+- `/scope` — Create designer-owned scope, research, QA, competitive-analysis, or team planning artifacts
+- `/prototype` — Create sandbox, production-facsimile, or repo-backed coded prototypes
+- `/engineer` — Work in a real codebase with `.design/` context, branch discipline, verification, tokens, and accessibility checks
+- `/review` — Route review work across MRs, branches, prototypes, tickets, Figma/static designs, or another designer's work
+- `/create-ticket` — Convert design artifacts into outcome-focused backlog/Jira tickets
+- `/create-mr` — Create an MR package: clean review branch, title/body/test plan, optional push, and pre-filled MR URL
+- `/create-preso` — Create a design story package with one-pager, deck outline, demo script, and feedback questions
+- `/slack-update` — Compose copy-pasteable team updates without auto-publishing
+
+The core skill is `product-design-workflow`. It preserves the old `.design/` bootstrap and templates while adding dual Claude/Codex support and platform-specific agents.
 
 ### live-canvas
 

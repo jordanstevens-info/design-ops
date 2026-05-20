@@ -1,6 +1,6 @@
 # Review Work
 
-`/review` is a router. It classifies the target, then runs the right review.
+`/pd-review` is a router. It classifies the target, then runs the right review.
 
 ## Target Types
 

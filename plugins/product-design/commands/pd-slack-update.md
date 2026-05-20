@@ -2,7 +2,7 @@
 description: Write a team update.
 ---
 
-# /slack-update
+# /pd-slack-update
 
 Write a team update.
 

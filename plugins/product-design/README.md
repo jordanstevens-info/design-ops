@@ -7,20 +7,20 @@ presos, and team updates.
 
 ## Commands
 
-- `/scope`: create designer-owned scope artifacts, research plans, QA plans, or
+- `/pd-scope`: create designer-owned scope artifacts, research plans, QA plans, or
   competitive analysis.
-- `/prototype`: create or revise sandbox, production-facsimile, or repo-backed
+- `/pd-prototype`: create or revise sandbox, production-facsimile, or repo-backed
   prototypes.
-- `/engineer`: work in the real codebase with `.design/`, branch discipline,
+- `/pd-engineer`: work in the real codebase with `.design/`, branch discipline,
   verification, tokens, accessibility, and changelog.
-- `/review`: classify the target first, then review MRs, branches, prototypes,
+- `/pd-review`: classify the target first, then review MRs, branches, prototypes,
   tickets, Figma/static work, or another designer's work.
-- `/create-ticket`: create a backlog/Jira-ready ticket from design artifacts.
-- `/create-mr`: create an MR package from a design branch. It does not merge,
+- `/pd-create-ticket`: create a backlog/Jira-ready ticket from design artifacts.
+- `/pd-create-mr`: create an MR package from a design branch. It does not merge,
   deploy, or create an MR through an API.
-- `/create-preso`: create a design story package under `.design/presos/<topic>/`
+- `/pd-create-preso`: create a design story package under `.design/presos/<topic>/`
   when repo-backed.
-- `/slack-update`: write a copy-pasteable update. It never auto-publishes.
+- `/pd-slack-update`: write a copy-pasteable update. It never auto-publishes.
 
 ## Workflow Model
 

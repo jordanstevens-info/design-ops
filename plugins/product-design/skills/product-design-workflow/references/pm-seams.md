@@ -22,7 +22,7 @@ them.
 
 ## Routing
 
-Use `/scope` when the output is a designer-owned plan to guide design work or
+Use `/pd-scope` when the output is a designer-owned plan to guide design work or
 team discussion.
 
 Route or recommend PM workflows when the user asks for:

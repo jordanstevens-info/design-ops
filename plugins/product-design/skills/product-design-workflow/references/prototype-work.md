@@ -1,6 +1,6 @@
 # Prototype Work
 
-`/prototype` creates a coded artifact for learning. It may be disposable,
+`/pd-prototype` creates a coded artifact for learning. It may be disposable,
 production-like, or repo-backed.
 
 ## Mode Selection
@@ -8,8 +8,8 @@ production-like, or repo-backed.
 Explicit flags win:
 
 ```text
-/prototype --sandbox
-/prototype --in-repo
+/pd-prototype --sandbox
+/pd-prototype --in-repo
 ```
 
 Without a flag:

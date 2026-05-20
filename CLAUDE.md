@@ -21,7 +21,7 @@ Claude Code and Codex plugin marketplace. No build, no app runtime — content i
 
 ## Plugins
 
-- **product-design** — one product design workflow plugin with commands for `/scope`, `/prototype`, `/engineer`, `/review`, `/create-ticket`, `/create-mr`, `/create-preso`, and `/slack-update`. It preserves `.design/` context bootstrapping and keeps detailed doctrine in references.
+- **product-design** — one product design workflow plugin with commands for `/pd-scope`, `/pd-prototype`, `/pd-engineer`, `/pd-review`, `/pd-create-ticket`, `/pd-create-mr`, `/pd-create-preso`, and `/pd-slack-update`. It preserves `.design/` context bootstrapping and keeps detailed doctrine in references.
 - **live-canvas** — single skill providing an infinite canvas of live iframe artboards (multi-viewport, branch diff via git worktrees).
 - **design-engineer** — deprecated and unlisted. Kept temporarily for migration reference only.
 

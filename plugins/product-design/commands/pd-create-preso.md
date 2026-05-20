@@ -2,7 +2,7 @@
 description: Create a design story presentation package.
 ---
 
-# /create-preso
+# /pd-create-preso
 
 Create a design story presentation package.
 

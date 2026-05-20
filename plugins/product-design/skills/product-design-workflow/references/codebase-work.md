@@ -1,9 +1,9 @@
 # Codebase Work
 
-`/engineer` implements design work in the real codebase on a `design/<topic>`
+`/pd-engineer` implements design work in the real codebase on a `design/<topic>`
 branch. It preserves branch-scoped `.design/` context, verifies the work, and
-stops before MR packaging. The user invokes `/create-mr`, `/create-ticket`, or
-`/slack-update` separately when ready.
+stops before MR packaging. The user invokes `/pd-create-mr`, `/pd-create-ticket`, or
+`/pd-slack-update` separately when ready.
 
 ## Shortcuts
 
@@ -18,21 +18,21 @@ stops before MR packaging. The user invokes `/create-mr`, `/create-ticket`, or
 ## Branching
 
 1. Create `design/<feature-name>` from the primary branch.
-2. All `/engineer` work happens on that branch. Never commit directly to the
+2. All `/pd-engineer` work happens on that branch. Never commit directly to the
    primary branch.
 3. Agents or workers that edit code should use isolated worktrees when available.
 
 ## Boundary
 
-`/engineer` ends at verified design-branch work. Never:
+`/pd-engineer` ends at verified design-branch work. Never:
 
 - Create PRs, MRs, or merge requests.
 - Suggest creating PRs, MRs, or merge requests during this flow.
 - Suggest backlog tickets or next steps beyond the current task.
 - Reference MR/PR workflows in the final output.
 
-The handoff is explicit: `/create-mr` packages a review branch, `/create-ticket`
-creates backlog-ready work, and `/slack-update` drafts a team update.
+The handoff is explicit: `/pd-create-mr` packages a review branch, `/pd-create-ticket`
+creates backlog-ready work, and `/pd-slack-update` drafts a team update.
 
 ## Principles
 

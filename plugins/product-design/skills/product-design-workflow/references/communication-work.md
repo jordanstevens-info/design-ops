@@ -1,6 +1,6 @@
 # Communication Work
 
-`/slack-update` composes a copy-pasteable Slack update summarizing design work
+`/pd-slack-update` composes a copy-pasteable Slack update summarizing design work
 across the current session. It gathers context from git, `.design/`, Figma,
 Jira, Confluence, and other touched services when available.
 
@@ -61,7 +61,7 @@ services, note what was done and include available URLs.
 ### Change Log References
 
 If `.design/changelog/` entries contain external references, include them in the
-Links section. These entries are captured during `/engineer` sessions and save
+Links section. These entries are captured during `/pd-engineer` sessions and save
 rediscovery.
 
 ### No External Tools

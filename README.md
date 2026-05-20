@@ -23,14 +23,14 @@ One product design workflow plugin for non-linear design work across prototypes,
 
 **Commands:**
 
-- `/scope` — Create designer-owned scope, research, QA, competitive-analysis, or team planning artifacts
-- `/prototype` — Create sandbox, production-facsimile, or repo-backed coded prototypes
-- `/engineer` — Work in a real codebase with `.design/` context, branch discipline, verification, tokens, and accessibility checks
-- `/review` — Route review work across MRs, branches, prototypes, tickets, Figma/static designs, or another designer's work
-- `/create-ticket` — Convert design artifacts into outcome-focused backlog/Jira tickets
-- `/create-mr` — Create an MR package: clean review branch, title/body/test plan, optional push, and pre-filled MR URL
-- `/create-preso` — Create a design story package with one-pager, deck outline, demo script, and feedback questions
-- `/slack-update` — Compose copy-pasteable team updates without auto-publishing
+- `/pd-scope` — Create designer-owned scope, research, QA, competitive-analysis, or team planning artifacts
+- `/pd-prototype` — Create sandbox, production-facsimile, or repo-backed coded prototypes
+- `/pd-engineer` — Work in a real codebase with `.design/` context, branch discipline, verification, tokens, and accessibility checks
+- `/pd-review` — Route review work across MRs, branches, prototypes, tickets, Figma/static designs, or another designer's work
+- `/pd-create-ticket` — Convert design artifacts into outcome-focused backlog/Jira tickets
+- `/pd-create-mr` — Create an MR package: clean review branch, title/body/test plan, optional push, and pre-filled MR URL
+- `/pd-create-preso` — Create a design story package with one-pager, deck outline, demo script, and feedback questions
+- `/pd-slack-update` — Compose copy-pasteable team updates without auto-publishing
 
 The core skill is `product-design-workflow`. It preserves the old `.design/` bootstrap and templates while adding dual Claude/Codex support and platform-specific agents.
 

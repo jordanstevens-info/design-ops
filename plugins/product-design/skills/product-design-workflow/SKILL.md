@@ -16,14 +16,14 @@ the right artifact without splitting doctrine across many thin skills.
 
 | Command | Mode | Output |
 |---|---|---|
-| `/scope` | Scope | Design scope, research plan, QA plan, competitive brief, or team plan |
-| `/prototype` | Prototype | Sandbox prototype, production facsimile, or repo-backed prototype |
-| `/engineer` | Codebase work | Verified `design/<topic>` branch with `.design/` context |
-| `/review` | Review router | MR acceptance, branch QA, prototype critique, ticket readiness, or spec review |
-| `/create-ticket` | Ticket | Outcome-focused Jira/backlog ticket |
-| `/create-mr` | MR package | Clean review branch, MR title/body/test plan, file list, optional push, prefilled URL |
-| `/create-preso` | Design story | Preso package with story, one-pager, deck outline, and demo script |
-| `/slack-update` | Communication | Copy-pasteable team update |
+| `/pd-scope` | Scope | Design scope, research plan, QA plan, competitive brief, or team plan |
+| `/pd-prototype` | Prototype | Sandbox prototype, production facsimile, or repo-backed prototype |
+| `/pd-engineer` | Codebase work | Verified `design/<topic>` branch with `.design/` context |
+| `/pd-review` | Review router | MR acceptance, branch QA, prototype critique, ticket readiness, or spec review |
+| `/pd-create-ticket` | Ticket | Outcome-focused Jira/backlog ticket |
+| `/pd-create-mr` | MR package | Clean review branch, MR title/body/test plan, file list, optional push, prefilled URL |
+| `/pd-create-preso` | Design story | Preso package with story, one-pager, deck outline, and demo script |
+| `/pd-slack-update` | Communication | Copy-pasteable team update |
 
 Commands are thin entry points. Do not duplicate doctrine in command files.
 
@@ -54,14 +54,14 @@ Read references only as needed:
 
 Bootstrap is not universal.
 
-- `/engineer`: requires `.design/` bootstrap.
-- `/review`: requires `.design/` only for branch or MR review.
-- `/create-mr`: requires `.design/changelog/` context from a design branch. If missing, ask for context before drafting.
-- `/create-ticket`: uses `.design/` if present; does not require it.
-- `/create-preso`: uses `.design/` if present; creates `.design/presos/` only for repo-backed work.
-- `/prototype`: uses bootstrap only in repo-backed mode.
-- `/scope`: uses `.design/` if present; does not require bootstrap.
-- `/slack-update`: uses `.design/changelog/` if present; otherwise falls back to git and user context.
+- `/pd-engineer`: requires `.design/` bootstrap.
+- `/pd-review`: requires `.design/` only for branch or MR review.
+- `/pd-create-mr`: requires `.design/changelog/` context from a design branch. If missing, ask for context before drafting.
+- `/pd-create-ticket`: uses `.design/` if present; does not require it.
+- `/pd-create-preso`: uses `.design/` if present; creates `.design/presos/` only for repo-backed work.
+- `/pd-prototype`: uses bootstrap only in repo-backed mode.
+- `/pd-scope`: uses `.design/` if present; does not require bootstrap.
+- `/pd-slack-update`: uses `.design/changelog/` if present; otherwise falls back to git and user context.
 
 When bootstrap is required or selected, run `references/context-bootstrap.md`
 before implementation or artifact drafting.
@@ -70,8 +70,8 @@ before implementation or artifact drafting.
 
 Explicit flags win:
 
-- `/prototype --sandbox`: sandbox prototype.
-- `/prototype --in-repo`: repo-backed prototype.
+- `/pd-prototype --sandbox`: sandbox prototype.
+- `/pd-prototype --in-repo`: repo-backed prototype.
 
 Without a flag:
 
@@ -84,18 +84,18 @@ production gaps.
 
 ## Hard Boundaries
 
-- `/engineer` stops at verified design branch work. It may commit and push the
+- `/pd-engineer` stops at verified design branch work. It may commit and push the
   design branch, but it must not suggest or start MR work.
-- `/create-mr` creates a package for review. It never merges, deploys, or
+- `/pd-create-mr` creates a package for review. It never merges, deploys, or
   creates an MR through a hosting API.
-- `/create-ticket` describes outcomes, not implementation prescriptions.
-- `/slack-update` never publishes through Slack or another messaging API.
-- `/scope` is design scope. It does not create PRDs or run broad PM discovery;
+- `/pd-create-ticket` describes outcomes, not implementation prescriptions.
+- `/pd-slack-update` never publishes through Slack or another messaging API.
+- `/pd-scope` is design scope. It does not create PRDs or run broad PM discovery;
   see `references/pm-seams.md`.
 
 ## Review Contract
 
-`/review` classifies the target first:
+`/pd-review` classifies the target first:
 
 - MR or PR: design acceptance review.
 - Current branch or design branch: pre-submit design QA.

@@ -1,6 +1,6 @@
 # Design Scope
 
-`/scope` creates a shareable design planning artifact. It is not a PRD.
+`/pd-scope` creates a shareable design planning artifact. It is not a PRD.
 
 ## Scope Types
 

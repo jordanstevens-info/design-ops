@@ -36,7 +36,7 @@ Works in the real codebase. Be conservative:
 - Check visual, responsive, accessibility, and dead-code gates
 - Write `.design/changelog/` entries
 
-Never create MRs. That is `/create-mr`.
+Never create MRs. That is `/pd-create-mr`.
 
 ## design-reviewer
 

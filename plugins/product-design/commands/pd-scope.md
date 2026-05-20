@@ -2,7 +2,7 @@
 description: Create a designer-owned scope artifact.
 ---
 
-# /scope
+# /pd-scope
 
 Create a designer-owned scope artifact.
 

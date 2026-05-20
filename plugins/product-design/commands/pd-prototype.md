@@ -2,7 +2,7 @@
 description: Create or revise a coded prototype.
 ---
 
-# /prototype
+# /pd-prototype
 
 Create or revise a coded prototype.
 

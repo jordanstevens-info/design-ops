@@ -2,7 +2,7 @@
 description: Create an MR package from design branch work.
 ---
 
-# /create-mr
+# /pd-create-mr
 
 Create an MR package from design branch work.
 

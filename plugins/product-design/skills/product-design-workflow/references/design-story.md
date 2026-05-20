@@ -1,6 +1,6 @@
 # Design Story
 
-`/create-preso` builds a presentation package around the design story.
+`/pd-create-preso` builds a presentation package around the design story.
 
 ## Location
 

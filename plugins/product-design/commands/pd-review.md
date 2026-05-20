@@ -2,7 +2,7 @@
 description: Review a design artifact or branch.
 ---
 
-# /review
+# /pd-review
 
 Review a design artifact or branch.
 

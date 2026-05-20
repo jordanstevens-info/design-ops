@@ -2,7 +2,7 @@
 description: Create a backlog-ready ticket from design work.
 ---
 
-# /create-ticket
+# /pd-create-ticket
 
 Create a backlog-ready ticket from design work.
 

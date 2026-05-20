@@ -1,6 +1,6 @@
 # MR Package
 
-`/create-mr` cuts a clean review branch from a `design/` branch and prepares
+`/pd-create-mr` cuts a clean review branch from a `design/` branch and prepares
 copy-pasteable MR materials. The design branch stays intact. This command does
 not merge, deploy, or create an MR through an API.
 

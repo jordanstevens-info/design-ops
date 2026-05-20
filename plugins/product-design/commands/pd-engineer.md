@@ -2,7 +2,7 @@
 description: Work in the real codebase on a design change.
 ---
 
-# /engineer
+# /pd-engineer
 
 Work in the real codebase on a design change.
 
@@ -16,4 +16,4 @@ Route to `product-design-workflow` in engineer mode. Bootstrap `.design/` when n
 
 ## Boundary
 
-This command does not create or suggest MRs. Use `/create-mr` explicitly after design branch work is complete.
+This command does not create or suggest MRs. Use `/pd-create-mr` explicitly after design branch work is complete.

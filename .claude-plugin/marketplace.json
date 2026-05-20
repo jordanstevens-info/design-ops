@@ -10,7 +10,7 @@
     {
       "name": "product-design",
       "source": "./plugins/product-design",
-      "description": "Product design workflow plugin for scoping, prototyping, engineering, review, tickets, MR packages, presos, and updates"
+      "description": "Product design workflow plugin for scoping, prototyping, engineering, review, tickets, MR packages, design story presos, and updates"
     },
     {
       "name": "live-canvas",

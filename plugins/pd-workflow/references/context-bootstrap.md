@@ -7,8 +7,9 @@ first use or via "Preflight" / "Prime".
 
 1. Create a `design/<feature-name>` branch from the primary branch
 2. Do all work on this branch
-3. When spawning subagents for implementation, always use `isolation: "worktree"`
-   so each agent gets its own isolated copy and branch
+3. When optional delegation is available and useful for implementation support,
+   keep delegated work isolated from the primary branch/worktree where the host
+   supports that mode
 
 ## Detect
 

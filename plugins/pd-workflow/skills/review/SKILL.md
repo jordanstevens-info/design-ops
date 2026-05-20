@@ -17,7 +17,8 @@ Read:
 - `../../references/review-work.md`
 - `../../references/codebase-work.md` only for branch/current-work design QA
 - `../../references/mr-package.md` only for MR acceptance context
-- `../../references/agent-roles.md` when using `design-reviewer`
+- `../../references/optional-delegation.md` when a fresh-context review pass
+  would reduce bias
 
 Target classes:
 

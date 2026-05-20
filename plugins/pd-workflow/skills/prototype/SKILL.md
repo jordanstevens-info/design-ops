@@ -16,7 +16,8 @@ Read:
 
 - `../../references/prototype-work.md`
 - `../../references/context-bootstrap.md` only in repo-backed mode
-- `../../references/agent-roles.md` when using `prototype-designer`
+- `../../references/optional-delegation.md` only when comparing distinct
+  prototype directions would help
 
 Mode rule:
 

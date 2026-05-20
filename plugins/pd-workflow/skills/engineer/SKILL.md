@@ -17,8 +17,8 @@ Read:
 
 - `../../references/codebase-work.md`
 - `../../references/context-bootstrap.md`
-- `../../references/agent-roles.md` when using `codebase-scout` or
-  `repo-design-engineer`
+- `../../references/optional-delegation.md` only for optional read-only
+  scouting when the runtime supports it
 
 Hard boundary: do not create, suggest, or start MR work. That belongs to the
 `create-mr` skill only when the user asks for MR packaging.

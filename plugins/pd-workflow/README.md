@@ -37,6 +37,7 @@ This plugin supports both host surfaces:
 - Codex: `.codex-plugin/plugin.json` plus `.agents/plugins/marketplace.json`.
 - Claude: `.claude-plugin/plugin.json` plus `.claude-plugin/marketplace.json`.
 
-Claude-facing agents live in `agents/claude/*.md`. Codex custom agents live in
-`agents/codex/*.toml`. Shared role doctrine belongs in workflow references, not
-duplicated across both agent formats.
+The plugin packages skills, references, and templates only. It does not package
+custom agents, so Claude and Codex expose the same workflow shape. Skills may
+suggest optional subagent delegation when the host runtime supports it, but no
+workflow depends on delegation being available.

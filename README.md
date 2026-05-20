@@ -32,7 +32,7 @@ One product design workflow plugin for non-linear design work across prototypes,
 - `create-preso` — Create a design story package with one-pager, deck outline, demo script, and feedback questions
 - `slack-update` — Compose copy-pasteable team updates without auto-publishing
 
-The plugin exposes focused skills, not command shims. Shared references preserve the old `.design/` bootstrap and templates while adding dual Claude/Codex support and platform-specific agents.
+The plugin exposes focused skills, not command shims. Shared references preserve the old `.design/` bootstrap and templates while keeping the Claude and Codex marketplace surfaces aligned.
 
 ### live-canvas
 

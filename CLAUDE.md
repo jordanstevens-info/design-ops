@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repo Purpose
 
-Claude Code and Codex plugin marketplace. No build, no app runtime — content is plugin manifests, skills, shared references, templates, and agent definitions loaded by the host CLI on install.
+Claude Code and Codex plugin marketplace. No build, no app runtime — content is plugin manifests, skills, shared references, and templates loaded by the host CLI on install.
 
 ## Layout
 
@@ -15,8 +15,6 @@ Claude Code and Codex plugin marketplace. No build, no app runtime — content i
 - `plugins/<plugin>/skills/<skill>/SKILL.md` — skill definition with YAML frontmatter (`name`, `description` for trigger matching).
 - `plugins/<plugin>/references/` — shared workflow doctrine.
 - `plugins/<plugin>/templates/` — artifact templates reused by skills.
-- `plugins/<plugin>/agents/claude/*.md` — Claude-facing agent instructions.
-- `plugins/<plugin>/agents/codex/*.toml` — Codex custom-agent definitions.
 
 ## Plugins
 
@@ -29,6 +27,6 @@ Claude Code and Codex plugin marketplace. No build, no app runtime — content i
 - Skill triggering depends on the `description:` field in frontmatter. Be specific about when a skill should fire.
 - Product design workflows use focused skills, not command shims.
 - Keep shared doctrine in plugin-level `references/` and `templates/`.
-- Codex agents are TOML, not Markdown. Do not place Codex custom agents in `agents/*.md`.
+- Do not package custom agents in plugins unless the host plugin spec adds a supported agent surface. Use optional delegation guidance inside skills instead.
 - When adding or removing public plugins, update both root marketplaces.
 - After editing a skill or manifest, reinstall and exercise the plugin in the target host CLI.

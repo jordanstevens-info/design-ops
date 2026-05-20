@@ -28,5 +28,6 @@
 - Scope and acceptance clarity
 - Risk to users, teams, or implementation
 
-The `review` skill owns target classification and final formatting. Delegate the
-critique pass to `design-reviewer` when available.
+The `review` skill owns target classification and final formatting. When the
+runtime supports subagents, an optional fresh-context critique pass can reduce
+bias; see `optional-delegation.md`.

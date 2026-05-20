@@ -1,0 +1,41 @@
+{
+  "name": "pd-workflow",
+  "version": "1.0.0",
+  "description": "Product design workflow plugin for scoping, prototyping, engineering, review, tickets, MR packages, design story presos, and updates.",
+  "author": {
+    "name": "Jordan Stevens"
+  },
+  "homepage": "https://github.com/jordanstevens-info/js-plugins",
+  "repository": "https://github.com/jordanstevens-info/js-plugins",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "product",
+    "pd-workflow",
+    "prototype",
+    "design-engineering",
+    "design-review",
+    "jira",
+    "merge-request"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PD Workflow",
+    "shortDescription": "Scope, prototype, engineer, review, package, and present design work.",
+    "longDescription": "A non-linear product design workflow for designers working inside and outside production codebases. It supports design scoping, coded prototypes, real-code design engineering, design reviews, backlog tickets, MR packages, design story presos, and team updates.",
+    "developerName": "Jordan Stevens",
+    "category": "Design",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/jordanstevens-info/js-plugins",
+    "defaultPrompt": [
+      "Use PD Workflow to scope this design problem.",
+      "Prototype this idea as a coded product facsimile.",
+      "Review this MR for design acceptance."
+    ],
+    "brandColor": "#0057B8",
+    "screenshots": []
+  }
+}

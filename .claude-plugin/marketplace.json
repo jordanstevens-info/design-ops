@@ -1,15 +1,15 @@
 {
-  "name": "js-plugins",
+  "name": "pd-plugins",
   "owner": {
     "name": "Jordan Stevens"
   },
   "metadata": {
-    "description": "Design and development workflow plugins for Claude Code and Codex"
+    "description": "Product design workflow plugins for Claude Code and Codex"
   },
   "plugins": [
     {
-      "name": "product-design",
-      "source": "./plugins/product-design",
+      "name": "pd-workflow",
+      "source": "./plugins/pd-workflow",
       "description": "Product design workflow plugin for scoping, prototyping, engineering, review, tickets, MR packages, design story presos, and updates"
     },
     {

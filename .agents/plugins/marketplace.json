@@ -1,14 +1,14 @@
 {
-  "name": "js-plugins",
+  "name": "pd-plugins",
   "interface": {
-    "displayName": "JS Plugins"
+    "displayName": "Product Design Plugins"
   },
   "plugins": [
     {
-      "name": "product-design",
+      "name": "pd-workflow",
       "source": {
         "source": "local",
-        "path": "./plugins/product-design"
+        "path": "./plugins/pd-workflow"
       },
       "policy": {
         "installation": "AVAILABLE",

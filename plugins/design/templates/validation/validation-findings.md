@@ -1,0 +1,33 @@
+# Validation Findings
+
+- Artifact tested:
+- Entry mode:
+- Artifact author:
+- Workflow runner:
+- Research or validation owner:
+- Decision owner:
+- Formal approver, if applicable:
+- Method:
+- Participant or reviewer group:
+- Tasks or prompts:
+- Data handling decision:
+- Observations:
+- Quantitative signals, if available:
+- Qualitative interpretation:
+- Resonant Frequency:
+  - Frequency:
+  - Signal:
+  - Why it matters:
+  - Primary metric:
+  - Supporting metrics:
+  - Guardrail metrics:
+  - Decision rule:
+  - Evidence:
+  - Open questions:
+- Evidence quality:
+- Confidence:
+- Decision impact:
+- Artifact changes recommended:
+- Next evidence needed:
+- Stop condition:
+- Feedback report or rerun path:

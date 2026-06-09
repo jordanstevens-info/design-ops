@@ -1,0 +1,40 @@
+{
+  "name": "work-os",
+  "version": "0.1.0+codex.20260601145925",
+  "description": "Initialize and upgrade a local Work OS by installing local skills, manifests, branch-safe migration plans, and audit-ready operating structure.",
+  "author": {
+    "name": "Jordan Stevens"
+  },
+  "homepage": "https://git.tmaws.io/jordan.stevens/fga-design-ops.git",
+  "repository": "https://git.tmaws.io/jordan.stevens/fga-design-ops.git",
+  "license": "MIT",
+  "keywords": [
+    "work-os",
+    "operations",
+    "knowledge-management",
+    "skills",
+    "audit",
+    "setup"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Work OS",
+    "shortDescription": "Initialize or upgrade a local Work OS with branch-safe setup and local skills.",
+    "longDescription": "A setup and upgrade plugin for Work OS. It exposes one public init skill that audits the target folder, proposes branch-safe setup or migration work, writes a version manifest, and installs local operational skills for prime, report, feedback, reflect, and audit.",
+    "developerName": "Jordan Stevens",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://git.tmaws.io/jordan.stevens/fga-design-ops.git",
+    "defaultPrompt": [
+      "Use Work OS init-os to set up this folder.",
+      "Use Work OS init-os to audit this folder before setup.",
+      "Use Work OS init-os to upgrade this Work OS.",
+      "Use Work OS init-os to overlay Work OS on this existing project."
+    ],
+    "brandColor": "#167C80",
+    "screenshots": []
+  }
+}

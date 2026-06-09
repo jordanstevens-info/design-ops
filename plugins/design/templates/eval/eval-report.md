@@ -1,0 +1,28 @@
+# Eval Report
+
+- Input artifact:
+- Output artifact:
+- Eval mode:
+- Artifact author:
+- Workflow runner:
+- Evaluator:
+- Design reviewer:
+- Technical reviewer:
+- Decision owner:
+- Formal approver, if applicable:
+- Rubric used:
+- Resonant frequency, if available:
+- Decision rule, if available:
+- Evidence reviewed:
+- Missing evidence:
+- Destination:
+- Destination approval source, if needed:
+- Evidence quality:
+- Findings by severity:
+- Scores, pass/fail checks, or rubric result, if useful:
+- Confidence:
+- Contamination notes:
+- Stop condition:
+- Feedback report needed:
+- Recommended feedback report:
+- Rerun instructions:

@@ -1,0 +1,23 @@
+# Run Manifest
+
+- Run id or timestamp:
+- Entry mode:
+- Workflow skill:
+- Selected recipe:
+- Input artifact refs:
+- Output artifact refs:
+- Artifact author:
+- Workflow runner:
+- Design reviewer:
+- Technical reviewer:
+- Decision owner:
+- Formal approver, if applicable:
+- Template/rubric/profile refs:
+- Tools used:
+- Evidence reviewed:
+- Data handling decision:
+- Decisions made:
+- Stop condition:
+- Feedback report refs:
+- Rerun instructions:
+- Human decision or approval:

@@ -1,31 +1,21 @@
 {
-  "name": "js-plugins",
+  "name": "pd-plugins",
   "owner": {
     "name": "Jordan Stevens"
   },
   "metadata": {
-    "description": "Design and development workflow plugins for Claude Code"
+    "description": "Product design workflow plugins for Claude Code and Codex"
   },
   "plugins": [
     {
-      "name": "design-engineer",
-      "source": "./plugins/design-engineer",
-      "description": "Cross-repo design engineering workflow with .design/ context bootstrapping, Figma-to-code, design tokens, visual QA, and accessibility"
+      "name": "pd-workflow",
+      "source": "./plugins/pd-workflow",
+      "description": "Product design workflow plugin for scoping, prototyping, engineering, review, tickets, MR packages, design story presos, and updates"
     },
     {
       "name": "live-canvas",
       "source": "./plugins/live-canvas",
       "description": "Infinite canvas with live iframe artboards for multi-viewport design review, branch comparison, and design token tuning"
-    },
-    {
-      "name": "design-update",
-      "source": "./plugins/design-update",
-      "description": "Compose Slack update messages summarizing work done across tools for team visibility"
-    },
-    {
-      "name": "caveman-output-style",
-      "source": "./plugins/caveman-output-style",
-      "description": "Ultra-compressed communication — multiple intensity levels selectable via /config"
     }
   ]
 }

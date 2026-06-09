@@ -1,0 +1,32 @@
+{
+  "name": "pd-plugins",
+  "interface": {
+    "displayName": "Product Design Plugins"
+  },
+  "plugins": [
+    {
+      "name": "pd-workflow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pd-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    },
+    {
+      "name": "live-canvas",
+      "source": {
+        "source": "local",
+        "path": "./plugins/live-canvas"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}

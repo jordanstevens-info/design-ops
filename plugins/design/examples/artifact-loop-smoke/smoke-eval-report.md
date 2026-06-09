@@ -1,0 +1,21 @@
+# Smoke Eval Report
+
+- Input artifact: checkout confirmation prototype option
+- Output artifact: smoke review report
+- Smoke question: Can a shopper understand what happens next after checkout?
+- Artifact author: product manager acting as artifact designer
+- Workflow runner: design workflow agent
+- Evaluator: independent smoke reviewer
+- Decision owner: checkout design lead
+- Reviewer mode: fresh-context
+- Rubric used: smoke mode, content clarity, interaction state coverage
+- Evidence reviewed: `source-artifact.md` and stated user outcome
+- Missing evidence: live prototype, accessibility pass, usability validation
+- Verdict: Needs work
+- Findings by severity:
+  - High: pickup cutoff is not visible at the moment the shopper confirms the order
+  - Medium: support path is not visible if the shopper needs help after payment
+- Contamination notes: demo-safe synthetic artifact only
+- Feedback report needed: yes
+- Rerun instruction: revise the prototype around cutoff visibility and support path, then rerun the same smoke question
+- Stop condition: Rerun

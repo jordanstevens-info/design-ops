@@ -1,0 +1,40 @@
+# Design Acceptance Report
+
+- Artifact under review:
+- Entry mode:
+- Artifact author:
+- Workflow runner:
+- Design reviewer:
+- Technical reviewer:
+- Decision owner:
+- Formal approver, if applicable:
+- Design-system profile:
+- Acceptance profile:
+- Acceptance mode:
+- Resonant frequency, if available:
+- Decision rule, if available:
+- Data handling decision:
+- Evidence reviewed:
+- Missing evidence:
+- Destination:
+- Destination approval source, if needed:
+- Acceptance decision:
+- MR merge recommendation, if applicable:
+- Design acceptance scenarios:
+  - Scenario:
+    - Artifact surface:
+    - User or job outcome:
+    - State or breakpoint:
+    - Design-system contract:
+    - Evidence or check method:
+    - Expected result:
+    - Actual result:
+    - Severity or blocking status:
+    - Rerun instruction:
+- Findings by severity:
+- Required changes:
+- Non-blocking debt:
+- Exceptions requested:
+- Stop condition:
+- Feedback report summary:
+- Rerun instruction:

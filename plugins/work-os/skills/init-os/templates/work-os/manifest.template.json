@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1",
+  "workOsVersion": "0.3.0",
+  "installedBy": "work-os:init-os",
+  "installedAt": "set-by-work-os-init-os",
+  "updatedAt": "set-by-work-os-init-os",
+  "localEditsAllowed": true,
+  "branchPolicy": {
+    "gitTrackedUpdates": "propose-new-branch",
+    "untrackedUpdates": "propose-git-init-and-new-branch",
+    "defaultBranchPrefix": "work-os/"
+  },
+  "skills": {
+    "work-os-prime": "0.1.0",
+    "work-os-report": "0.1.0",
+    "work-os-feedback": "0.2.0",
+    "work-os-reflect": "0.2.0",
+    "work-os-audit": "0.1.0"
+  },
+  "profilePacks": []
+}

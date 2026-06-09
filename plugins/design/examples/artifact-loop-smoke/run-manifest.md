@@ -1,0 +1,23 @@
+# Run Manifest
+
+- Run id or timestamp: demo-2026-05-25-artifact-loop-smoke
+- Entry mode: prototype-first
+- Workflow skill: workflow
+- Selected recipe: prototype-smoke-eval
+- Input artifact refs: `source-artifact.md`, `input-packet.md`
+- Output artifact refs: `output-artifact.md`, `smoke-eval-report.md`, `feedback-report.md`, `destination-decision.md`
+- Artifact author: product manager acting as artifact designer
+- Workflow runner: design workflow agent
+- Design reviewer: independent smoke reviewer
+- Technical reviewer: not needed for this demo run
+- Decision owner: checkout design lead
+- Formal approver, if applicable: none for smoke eval
+- Template/rubric/profile refs: `templates/eval/smoke-eval-report.md`, `references/rubrics.md`, `references/smoke-evals.md`
+- Tools used: file inspection only
+- Evidence reviewed: synthetic prototype description and expected user outcome
+- Data handling decision: Class 1 demo data; safe to process
+- Decisions made: route to `review` for a smoke eval before deeper prototype work
+- Stop condition: Rerun
+- Feedback report refs: `feedback-report.md`
+- Rerun instructions: revise the prototype around cutoff visibility and support path, then rerun the same smoke question
+- Human decision or approval: no external persistence or remote mutation requested

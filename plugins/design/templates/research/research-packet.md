@@ -1,0 +1,25 @@
+# Research Packet
+
+- Research question:
+- Assumption or risk:
+- Target users or stakeholders:
+- Method:
+- Evidence needed:
+- Existing evidence:
+- Gaps:
+- Decision this research should inform:
+- Data handling notes:
+- Destination:
+- Destination approval source, if needed:
+- Artifact author:
+- Workflow runner:
+- Research owner:
+- Design reviewer:
+- Technical reviewer:
+- Decision owner:
+- Formal approver, if applicable:
+- Evidence reviewed:
+- Missing evidence:
+- Stop condition:
+- Feedback report or rerun path:
+- Next action:

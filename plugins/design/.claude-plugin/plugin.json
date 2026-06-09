@@ -1,0 +1,17 @@
+{
+  "name": "design",
+  "description": "Design workflow plugin for workflow routing, idea capture, scoping, resonant-frequency framing, prototyping, engineering, eval, review, Jira/backlog updates, MR packages, async demos, design story presos, updates, and artifact-loop reporting",
+  "version": "1.1.0",
+  "author": {
+    "name": "Jordan Stevens"
+  },
+  "keywords": [
+    "product",
+    "design",
+    "prototype",
+    "design-engineering",
+    "design-review",
+    "jira",
+    "merge-request"
+  ]
+}

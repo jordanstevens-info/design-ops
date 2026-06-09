@@ -1,0 +1,16 @@
+{
+  "name": "work-os",
+  "description": "Initialize and upgrade a local Work OS by installing local skills, manifests, branch-safe migration plans, and audit-ready operating structure",
+  "version": "0.1.5",
+  "author": {
+    "name": "Jordan Stevens"
+  },
+  "keywords": [
+    "work-os",
+    "operations",
+    "knowledge-management",
+    "skills",
+    "audit",
+    "setup"
+  ]
+}

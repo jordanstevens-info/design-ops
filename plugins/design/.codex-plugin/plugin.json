@@ -1,0 +1,44 @@
+{
+  "name": "design",
+  "version": "1.1.0",
+  "description": "Design workflow plugin for workflow routing, idea capture, scoping, resonant-frequency framing, prototyping, engineering, eval, review, Jira/backlog updates, MR packages, async demos, design story presos, updates, and artifact-loop reporting.",
+  "author": {
+    "name": "Jordan Stevens"
+  },
+  "homepage": "https://git.tmaws.io/jordan.stevens/fga-design-ops.git",
+  "repository": "https://git.tmaws.io/jordan.stevens/fga-design-ops.git",
+  "license": "MIT",
+  "keywords": [
+    "product",
+    "design",
+    "prototype",
+    "design-engineering",
+    "design-review",
+    "jira",
+    "merge-request"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Design",
+    "shortDescription": "Route, scope, frame, prototype, engineer, eval, review, package, and present design work.",
+    "longDescription": "A non-linear design workflow for designers and design-adjacent partners working across ideas, prototypes, MRs, branches, shipped UI, and production codebases. It supports workflow routing, idea capture, scoping, resonant-frequency framing, coded prototypes, real-code design engineering, design-system evals, design acceptance scenarios, feedback reports, Jira/backlog ticket drafts, MR packages, async demo packages, design story presos, and team updates.",
+    "developerName": "Jordan Stevens",
+    "category": "Design",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://git.tmaws.io/jordan.stevens/fga-design-ops.git",
+    "defaultPrompt": [
+      "Use Design workflow to help me choose the next design move.",
+      "Use Design to scope this design problem.",
+      "Use Design to identify the resonant frequency for this design problem.",
+      "Prototype this idea as a coded product facsimile.",
+      "Evaluate this prototype against the design system.",
+      "Create an async demo package for this prototype.",
+      "Review this MR for design acceptance."
+    ],
+    "brandColor": "#0057B8",
+    "screenshots": []
+  }
+}

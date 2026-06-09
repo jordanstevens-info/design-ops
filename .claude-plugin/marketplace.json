@@ -16,11 +16,6 @@
       "name": "live-canvas",
       "source": "./plugins/live-canvas",
       "description": "Infinite canvas with live iframe artboards for multi-viewport design review, branch comparison, and design token tuning"
-    },
-    {
-      "name": "caveman-output-style",
-      "source": "./plugins/caveman-output-style",
-      "description": "Ultra-compressed communication — multiple intensity levels selectable via /config"
     }
   ]
 }

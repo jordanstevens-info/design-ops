@@ -1,0 +1,35 @@
+# Validation Plan
+
+- Artifact under test:
+- Entry mode:
+- Artifact author:
+- Workflow runner:
+- Research or validation owner:
+- Decision owner:
+- Formal approver, if applicable:
+- Assumptions being tested:
+- Resonant Frequency:
+  - Frequency:
+  - Signal:
+  - Why it matters:
+  - Primary metric:
+  - Supporting metrics:
+  - Guardrail metrics:
+  - Decision rule:
+  - Evidence:
+  - Open questions:
+- Participant or reviewer group:
+- Method:
+- Tasks or prompts:
+- Evidence needed:
+- Existing evidence:
+- Decision this should inform:
+- Confidence target:
+- Data handling notes:
+- Destination:
+- Destination approval source, if needed:
+- Evidence reviewed:
+- Missing evidence:
+- Stop condition:
+- Feedback report or rerun path:
+- Next action:

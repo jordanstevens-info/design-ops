@@ -1,0 +1,21 @@
+# Smoke Eval Report
+
+- Input artifact:
+- Output artifact:
+- Smoke question:
+- Artifact author:
+- Workflow runner:
+- Evaluator:
+- Decision owner:
+- Reviewer mode: current-context | fresh-context | unavailable
+- Rubric used:
+- Evidence reviewed:
+- Missing evidence:
+- Destination:
+- Destination approval source, if needed:
+- Verdict: Pass | Needs work | Fail
+- Findings by severity:
+- Contamination notes:
+- Feedback report needed:
+- Rerun instruction:
+- Stop condition:

@@ -22,7 +22,7 @@ tools, data rules, and source systems.
 ### Claude Code
 
 ```shell
-claude plugin marketplace add https://git.tmaws.io/jordan.stevens/fga-design-ops.git
+claude plugin marketplace add https://github.com/jordanstevens-info/design-ops.git
 claude plugin install design@design-ops
 claude plugin install live-canvas@design-ops
 claude plugin install work-os@design-ops
@@ -33,7 +33,7 @@ claude plugin install work-os@design-ops
 Add the marketplace:
 
 ```shell
-codex plugin marketplace add https://git.tmaws.io/jordan.stevens/fga-design-ops.git
+codex plugin marketplace add https://github.com/jordanstevens-info/design-ops.git
 ```
 
 Install a plugin:

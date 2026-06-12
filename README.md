@@ -13,6 +13,7 @@ This marketplace currently contains:
 - `design` - a generic artifact-loop plugin for product design work.
 - `work-os` - a setup plugin for agent-readable workspaces.
 - `live-canvas` - a browser canvas for multi-viewport visual review.
+- `output-styles` - Claude Code output styles that reshape how the agent responds.
 
 Team-specific variants can fork or wrap these models with local templates,
 tools, data rules, and source systems.
@@ -26,6 +27,7 @@ claude plugin marketplace add https://github.com/jordanstevens-info/design-ops.g
 claude plugin install design@design-ops
 claude plugin install live-canvas@design-ops
 claude plugin install work-os@design-ops
+claude plugin install output-styles@design-ops
 ```
 
 ### Codex
@@ -203,3 +205,40 @@ An infinite canvas with live iframe artboards of your running dev server at mult
 - Annotate with sticky notes and callout markers
 - Tweak design tokens (colors, spacing, typography) with live hot-reload
 - Embed local files (images, video, audio, code) alongside live artboards
+
+### output-styles
+
+A collection of Claude Code output styles. Output styles replace the
+output-style portion of the system prompt rather than adding to session context
+like a prompt, command, or skill. They are always on, toggleable mid-session,
+and do not change how Claude writes code - only how it responds to you. This
+plugin is Claude Code only; Codex does not support output styles.
+
+#### Styles
+
+- `be-brief` - terse, fragment-pattern replies with auto-clarity for security
+  warnings, irreversible actions, and ambiguous multi-step sequences. Code,
+  commits, and PRs stay normal.
+
+#### How To Start
+
+Activate a style with `/config`, then select it under Output style:
+
+```text
+/config
+```
+
+The selection is saved to `.claude/settings.local.json` as `outputStyle`. It
+takes effect on the next session or after `/clear`. You can also drop a style
+straight into `~/.claude/output-styles/` or a project's `.claude/output-styles/`
+to try it without installing the plugin.
+
+#### Credits
+
+`be-brief` adapts the auto-clarity and boundary sections from
+[caveman](https://github.com/JuliusBrussee/caveman) by
+[JuliusBrussee](https://github.com/JuliusBrussee) (MIT), reduced to a single
+primary instruction. Inspired by
+[this video](https://youtu.be/wijoYNiZq3M) comparing caveman to simply adding
+"be brief" to a prompt. Source skill:
+[caveman SKILL.md](https://github.com/JuliusBrussee/caveman/blob/main/plugins/caveman/skills/caveman/SKILL.md).

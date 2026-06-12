@@ -1,0 +1,9 @@
+{
+  "name": "output-styles",
+  "description": "Output styles for Claude Code that reshape how the agent responds, starting with be-brief for terse fragment-pattern replies",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jordan Stevens"
+  },
+  "keywords": ["output-style", "brevity", "tone", "voice", "claude-code"]
+}

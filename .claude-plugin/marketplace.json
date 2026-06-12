@@ -1,21 +1,31 @@
 {
-  "name": "pd-plugins",
+  "name": "design-ops",
   "owner": {
     "name": "Jordan Stevens"
   },
   "metadata": {
-    "description": "Product design workflow plugins for Claude Code and Codex"
+    "description": "Design ops workflow plugins for Claude Code and Codex"
   },
   "plugins": [
     {
-      "name": "pd-workflow",
-      "source": "./plugins/pd-workflow",
-      "description": "Product design workflow plugin for scoping, prototyping, engineering, review, tickets, MR packages, design story presos, and updates"
+      "name": "design",
+      "source": "./plugins/design",
+      "description": "Design workflow plugin for workflow routing, idea capture, scoping, prototyping, engineering, review, tickets, MR packages, async demos, design story presos, updates, and artifact-loop reporting"
     },
     {
       "name": "live-canvas",
       "source": "./plugins/live-canvas",
       "description": "Infinite canvas with live iframe artboards for multi-viewport design review, branch comparison, and design token tuning"
+    },
+    {
+      "name": "work-os",
+      "source": "./plugins/work-os",
+      "description": "Initialize and upgrade a local Work OS with branch-safe setup, version manifests, and local prime/report/feedback/reflect/audit skills"
+    },
+    {
+      "name": "output-styles",
+      "source": "./plugins/output-styles",
+      "description": "Output styles for Claude Code that reshape how the agent responds, starting with be-brief for terse fragment-pattern replies"
     }
   ]
 }

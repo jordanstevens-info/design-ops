@@ -21,7 +21,7 @@ finding the project thread, metrics, guardrails, and decision rule.
   evals, and system-performance checks.
 - `review`: classify the target first, then review MRs, branches, prototypes,
   tickets, Figma/static work, or another designer's work.
-- `jira-update`: draft or revise Jira/backlog-ready ticket content from design artifacts.
+- `create-backlog`: draft or revise Jira/backlog-ready ticket content from design artifacts.
 - `create-mr`: create an MR package from a design branch. It does not merge,
   deploy, or create an MR through an API.
 - `create-demo`: create an async demo package with recording outline, demo

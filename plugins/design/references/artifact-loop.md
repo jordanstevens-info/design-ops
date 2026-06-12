@@ -46,7 +46,7 @@ Use these names in run manifests and reports:
 | `idea-parking` | idea is worth saving but not acting on yet | `idea capture` |
 | `idea-to-options` | idea needs exploration before commitment | `idea capture -> scope -> prototype -> eval -> feedback report` |
 | `idea-to-research` | idea rests on an untested assumption | `idea capture -> research packet -> validation plan -> feedback report` |
-| `idea-to-ticket` | idea or rough ask needs framing before delivery | `idea capture -> scope -> prototype -> eval -> validation -> jira-update` |
+| `idea-to-ticket` | idea or rough ask needs framing before delivery | `idea capture -> scope -> prototype -> eval -> validation -> create-backlog` |
 | `prototype-smoke-eval` | prototype needs a fast independent quality check before more work | `prototype -> smoke eval -> feedback report when needed` |
 | `design-change-smoke-eval` | branch, Figma comp, or UI change needs a quick design-risk scan | `smoke eval -> review or engineer when needed` |
 | `artifact-routing-smoke-eval` | workflow route may be wrong or evidence is ambiguous | `workflow -> smoke eval -> reroute or proceed` |
@@ -79,7 +79,7 @@ Recipe steps map to skills, references, and templates:
 | `feedback report` | `templates/feedback/feedback-report.md` |
 | `system-performance report` | `references/system-performance.md`, `templates/eval/system-performance-report.md`, and `templates/eval/skill-scenario-set.md` for scenario-set use |
 | `engineer` | `skills/engineer` |
-| `jira-update` | `skills/jira-update` |
+| `create-backlog` | `skills/create-backlog` |
 | `create-mr` | `skills/create-mr` |
 | `create-demo` | `skills/create-demo`, `references/demo-work.md`, and `templates/demo/` |
 

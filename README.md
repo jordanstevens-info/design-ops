@@ -109,7 +109,7 @@ suspected C4 data stops as `Prohibited`.
 - `engineer` - production-code design changes with verification
 - `eval` - design-system evals, acceptance scenarios, smoke/quick/full evals
 - `review` - MRs, branches, prototypes, tickets, Figma/static designs
-- `jira-update` - backlog-ready Jira content
+- `create-backlog` - backlog-ready ticket content
 - `create-mr` - MR title, body, file list, and test plan
 - `create-demo` - async walkthrough package and feedback ask
 - `create-preso` - design story package, one-pager, outline, demo script

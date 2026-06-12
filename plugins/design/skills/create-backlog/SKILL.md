@@ -1,16 +1,16 @@
 ---
-name: jira-update
+name: create-backlog
 description: >
-  Draft or revise Jira/backlog-ready ticket content from existing design
-  artifacts, branches, prototypes, Figma links, design stories, or notes. Use
-  when the user asks for a Jira update, update Jira, a Jira ticket, a backlog
-  update, design-to-backlog, backlog-ready work, rewrite ticket, development
+  Draft or revise backlog-ready ticket content from existing design artifacts,
+  branches, prototypes, Figma links, design stories, or notes. Use when the user
+  asks to create a backlog item, a backlog ticket, a Jira ticket, a Jira update,
+  update Jira, design-to-backlog, backlog-ready work, rewrite ticket, development
   ticket, or an outcome-focused ticket from design work. Do not use for
   open-ended design scoping, research planning, prototyping, MR packaging,
   review, or processing C4 data.
 ---
 
-# Jira Update
+# Create Backlog
 
 Draft or revise Jira/backlog-ready ticket content from design artifacts. The
 ticket describes the desired product outcome and acceptance criteria without

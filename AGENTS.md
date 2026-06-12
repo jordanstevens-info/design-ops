@@ -21,7 +21,7 @@ templates loaded by host CLIs on install.
 ## Plugins
 
 - `design`: one design workflow plugin with `workflow` plus focused skills for
-  scope, prototype, engineer, eval, review, jira-update, create-mr, create-demo,
+  scope, prototype, engineer, eval, review, create-backlog, create-mr, create-demo,
   create-preso, and slack-update. It preserves `.design` context bootstrapping, adds the
   artifact-loop contract, idea capture, and detailed doctrine in shared
   references.

@@ -56,6 +56,6 @@ production gaps.
 
 ## Artifact Skills
 
-Do not use subagents by default for `scope`, `jira-update`, `create-mr`,
+Do not use subagents by default for `scope`, `create-backlog`, `create-mr`,
 `create-preso`, or `slack-update`. These are artifact synthesis workflows, and
 delegation usually adds more process than value.

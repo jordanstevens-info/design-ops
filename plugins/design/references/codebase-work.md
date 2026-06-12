@@ -2,7 +2,7 @@
 
 `engineer` implements design work in the real codebase on a `design/<topic>`
 branch. It preserves branch-scoped `.design/` context, verifies the work, and
-stops before MR packaging. The user invokes `create-mr`, `jira-update`, or
+stops before MR packaging. The user invokes `create-mr`, `create-backlog`, or
 `slack-update` separately when ready.
 
 ## Shortcuts
@@ -31,7 +31,7 @@ stops before MR packaging. The user invokes `create-mr`, `jira-update`, or
 - Suggest backlog tickets or next steps beyond the current task.
 - Reference MR/PR workflows in the final output.
 
-The handoff is explicit: `create-mr` packages a review branch, `jira-update`
+The handoff is explicit: `create-mr` packages a review branch, `create-backlog`
 drafts Jira/backlog-ready work, and `slack-update` drafts a team update.
 
 ## Principles

@@ -48,7 +48,7 @@ idea
 -> prototype when it needs options or interaction evidence
 -> research packet when the assumption is the problem
 -> validation plan when the artifact needs evidence
--> jira-update when it is delivery-ready
+-> create-backlog when it is delivery-ready
 -> feedback report when it reveals a correction signal
 -> knowledge or templates when it becomes durable or repeated
 ```

@@ -119,7 +119,7 @@ Routing:
 - If an MR, branch, prototype, Figma artifact, ticket, or shipped UI needs
   acceptance, route to `review`.
 - If production code changes are needed, route to `engineer`.
-- If delivery packaging is needed, route to `jira-update`, `create-mr`,
+- If delivery packaging is needed, route to `create-backlog`, `create-mr`,
   `create-demo`, `create-preso`, or `slack-update`.
 - If the artifact needs async stakeholder walkthrough and feedback, route to
   `create-demo`.
